@@ -1,6 +1,8 @@
 GalleryDivision.js
 ==================
 
+* Sorry folks, this currently only works in Google chrome.  I will make it cross browser compatible when I have a little time, probably within the next week. *
+
 Gallery Division Demonstration
 
 That's right folks, this is a demonstration of Gallery Division using combined erasure and slashing.  100% html5, css3 and javascript.
