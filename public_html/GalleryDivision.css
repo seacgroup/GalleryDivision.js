@@ -1,0 +1,106 @@
+﻿body { margin: 0px; }
+#log li { font-size: 12pt; line-height: 1em; }
+.pass { color: darkblue; }
+.fail { color: darkred; font-weight: bold; }
+#testContainer {
+    text-align: center;
+}
+#testContainer>* {
+    display: inline-block;
+    vertical-align: top;
+}
+#test,
+#test input[type=text] {
+    font-size: 18pt;
+    font-family: "New Century Schoolbook", serif;
+}
+#test th, #test td {
+    padding: 2px;
+    background-color: lightyellow;
+    empty-cells: show;
+}
+#test th {
+    padding: 0px;
+    text-align: center;
+}
+#test input[type=text] {
+    display: block;
+    margin: 0px;
+    height: 6em;
+}
+#test.render input[type=text] {
+    display: none;
+}
+#test input[type=button] {
+    display: none;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    font-weight: bold;
+    color: darkslategrey;
+    background: #f0f0f0; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f0f0f0 0%, #e8e8e8 50%, #dcdcdc 50%, #d0d0d0 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f0f0), color-stop(50%,#e8e8e8), color-stop(50%,#dcdcdc), color-stop(100%,#d0d0d0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f0f0f0 0%,#e8e8e8 50%,#dcdcdc 50%,#d0d0d0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f0f0f0 0%,#e8e8e8 50%,#dcdcdc 50%,#d0d0d0 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f0f0f0 0%,#e8e8e8 50%,#dcdcdc 50%,#d0d0d0 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f0f0f0 0%,#e8e8e8 50%,#dcdcdc 50%,#d0d0d0 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#d0d0d0',GradientType=0 ); /* IE6-9 */
+    border: 1px outset white;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+#test input#render[type=button] {
+    display: inline-block;
+}
+#test.render input[type=button] {
+    width: 33%;
+    display: inline-block;
+}
+#test.begin input#prev[type=button],
+#test.done input#next[type=button] {
+    color: darkred;
+    background: -moz-linear-gradient(top,  rgba(239,215,215,0.75) 0%, rgba(219,197,197,0.75) 50%, rgba(206,185,185,0.75) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(239,215,215,0.75)), color-stop(50%,rgba(219,197,197,0.75)), color-stop(100%,rgba(206,185,185,0.75))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(239,215,215,0.75) 0%,rgba(219,197,197,0.75) 50%,rgba(206,185,185,0.75) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(239,215,215,0.75) 0%,rgba(219,197,197,0.75) 50%,rgba(206,185,185,0.75) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(239,215,215,0.75) 0%,rgba(219,197,197,0.75) 50%,rgba(206,185,185,0.75) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(239,215,215,0.75) 0%,rgba(219,197,197,0.75) 50%,rgba(206,185,185,0.75) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80efd7d7', endColorstr='#80ceb9b9',GradientType=0 ); /* IE6-9 */
+}
+#test math {
+    text-align: left;
+    display: none;
+    padding: 1px;
+}
+#test.render math {
+    display: block;
+}
+#test math span {
+    padding: 0px;
+    border: 1px solid lightyellow;
+    min-width: 1ex;
+    min-height: 1em;
+    empty-cells: show;
+    display: inline-block;
+}
+#test math span.focus {
+    background-color: lightcyan;
+    border-color: darkgoldenrod;
+}
+#test math span.cancelled {
+    text-decoration: line-through !important;
+    background-color: inherit !important;
+    border: 1px solid lightyellow !important;
+}
+#test math span.invalid {
+    color: darkred;
+    font-weight: bold;
+}
+#test math span.spacer {
+    background-color: inherit !important;
+    color: lightyellow;
+}
+

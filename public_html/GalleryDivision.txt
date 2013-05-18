@@ -1,0 +1,36 @@
+﻿6683257250928349 ÷ 69329388055
+37250928349 = 6 68325 72509 28349 - 7 72239 25472 82285 ( 69329388055 x 111387 )
+111387, expected: 96398 = ( "-6683257250928349" ).div( "-69329388055" )
+
+6683257250928349 ÷ 69329388055 BigInt.js:349
+37250928349 = 6683257250928349 - 6 93293 88055 x 111387 
+
+6683257250928349 ÷ 69329388055 BigInt.js:354
+37250928349 = 6683257250928349 - 4149269156010063 ( 69329388055 x 111387) 
+111395
+
+How it works [edit]
+
+
+
+65284/594 using galley division
+
+
+The completed problem
+
+
+65284/594 using "modern" long division for comparison
+Set up the problem by writing the dividend and then a bar. The quotient will be written after the bar. Steps:
+(a1) Write the divisor below the dividend. Align the divisor so that its leftmost digit is directly below the dividend's leftmost digit (if the divisor is 594, for instance, it would be written an additional space to the right, so that the "5" would appear below the "6", as shown in the illustration).
+(a2) Dividing 652 by 594 yields the quotient 1 which is written to the right of the bar.
+Now multiply each digit of the divisor by the new digit of the quotient and subtract that from the left-hand segment of the dividend. Where the subtrahend and the dividend segment differ, cross out the dividend digit and write if necessary the subtrahend digit and next vertical empty space. Cross out the divisor digit used.
+(b) Compute 6 − 5×1 = 1. Cross out the 6 of the divident and above it write a 1. Cross out the 5 of the divisor. The resulting dividend is now read off as the topmost un-crossed digits: 15284.
+(c) Using the left-hand segment of the resulting dividend we get 15 − 9×1 = 6. Cross out the 1 and 5 and write 6 above. Cross out the 9. The resulting dividend is 6284.
+(d) Compute 62 − 4×1 = 58. Cross out the 6 and 2 and write 5 and 8 above. Cross out the 4. The resulting dividend is 5884.
+(e) Write the divisor one step to the right of where it was originally written using empty spaces below existing crossed out digits.
+(f1) Dividing 588 by 594 yields 0 which is written as the new digit of the quotient.
+(f2) As 0 times any digit of the divisor is 0, the dividend will remain unchanged. We therefore can cross out all the digits of the divisor.
+(f3) We write the divisor again one space to the right
+(omitted) Dividing 5884 by 594 yields 9 which is written as the new digit of the quotient. 58 − 5×9 = 13 so cross out the 5 and 8 and above them write 1 and 3. Cross out the 5 of the divisor. The resulting divident is now 1384. 138 − 9×9 = 57. Cross out 1,3, and 8 of the dividend and write 5 and 7 above. Cross out the 9 of the divisor. The resulting dividend is 574. 574 − 4×9 = 538. Cross out the 7 and 4 of the dividend and write 3 and 8 above them. Cross out the 4 of the divisor. The resulting dividend is 538. The process is done, the quotient is 109 and the remainder is 538.
+Other versions [edit]
+The above is called the cross-out version and is the most common. An erasure version exists for situations where erasure is acceptable and there is not need to keep track of the intermediate steps. This is the method used with a sand abacus. Finally, there is a printers method that uses neither erasure or crossouts. Only the top digit in each column of the dividend is active with a zero used to denote an entirely inactive column.
