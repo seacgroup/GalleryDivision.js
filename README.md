@@ -1,7 +1,7 @@
 GalleryDivision.js
 ==================
 
-* Sorry folks, this currently only works in Google chrome, Safari and Opera.  I will make it cross browser compatible when I have a little time, probably within the next week.
+* Sorry folks, this currently only works in Google chrome, Mozilla Firefox, Safari and Opera.  I will make it cross browser compatible when I have a little time, probably within the next week.
 
 Gallery Division Demonstration
 
